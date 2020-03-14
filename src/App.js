@@ -5,7 +5,9 @@ function App() {
   return (
     <main className='App'>
       <h1>Bean Counter</h1>
-      <div id='bean_jar'></div>
+      <div id='bean_jar'>
+        <h2>27</h2>
+      </div>
       <div className='buttons'>
         <button id='add'>Add</button>
         <button id='remove'>Remove</button>
