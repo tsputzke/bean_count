@@ -1,5 +1,39 @@
+@import './config';
+
+$primary_color: pink;
+$secondary_color: blue;
+
+h1 {
+  text-align: center;
+  margin: 5% 0 5% 0;
+  color: $secondary_color;
+  @include transition
+}
+
+h1:hover {
+  color: green;
+}
+
 #bean_jar {
   height: 200px;
   width: 200px;
-  background-color: blue;
+  background-color: $primary_color;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  width: 200px;
+  margin: 5% auto;
+  justify-content: space-evenly;
+
+  button {
+    padding: 10px;
+  }
+}
+
+@include media-md {
+  h1 {
+    font-size: 2.5em;
+  }
 }

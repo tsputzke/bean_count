@@ -1,6 +1,40 @@
+h1 {
+  text-align: center;
+  margin: 5% 0 5% 0;
+  color: blue;
+  -webkit-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
+}
+
+h1:hover {
+  color: green;
+}
+
 #bean_jar {
   height: 200px;
   width: 200px;
-  background-color: blue;
+  background-color: pink;
+  margin: auto;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  margin: 5% auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.buttons button {
+  padding: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  h1 {
+    font-size: 2.5em;
+  }
 }
 /*# sourceMappingURL=main.css.map */

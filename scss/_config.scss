@@ -1,0 +1,9 @@
+@mixin transition {
+  transition: all 0.75s ease-in-out;
+}
+
+@mixin media-md {
+  @media screen and (min-width: 750px) {
+    @content;
+  }
+}
