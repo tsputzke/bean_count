@@ -11,8 +11,13 @@ h1:hover {
 }
 
 #bean_jar {
+<<<<<<< HEAD
   height: 280px;
   width: 280px;
+=======
+  height: 250px;
+  width: 250px;
+>>>>>>> beanjar_feature
   background-color: hotpink;
   margin: auto;
 }
